@@ -8,8 +8,8 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "thinker": "./bin/thinker.js",
-    "thinker-toolkit": "./bin/thinker.js"
+    "thinker": "bin/thinker.js",
+    "thinker-toolkit": "bin/thinker.js"
   },
   "files": [
     "dist",
