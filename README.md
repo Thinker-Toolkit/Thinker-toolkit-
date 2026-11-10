@@ -11,15 +11,20 @@ No proprietary editor lock-in, no synthetic guesswork — only verified, reprodu
 
 ## Quick Start
 
-### Option 1: Run with npx (No install required)
+### Option 1: Run instantly with npx (Direct from GitHub)
 ```bash
-npx thinker-toolkit init
+npx github:Thinker-Toolkit/Thinker-toolkit- init
 ```
 
 ### Option 2: Install globally
 ```bash
-npm install -g thinker-toolkit
+npm install -g github:Thinker-Toolkit/Thinker-toolkit-
 thinker init
+```
+
+### Option 3: Via NPM registry (once published)
+```bash
+npx thinker-toolkit init
 ```
 
 ---
