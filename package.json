@@ -1,0 +1,40 @@
+{
+  "name": "thinker-toolkit",
+  "version": "0.1.0",
+  "description": "Protocol-driven engineering skills runtime for AI-assisted development",
+  "author": "Thinker Labs",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "thinker": "./bin/thinker.js",
+    "thinker-toolkit": "./bin/thinker.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/prompts": "^2.4.9",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
