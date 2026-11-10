@@ -9,9 +9,9 @@ No proprietary editor lock-in, no synthetic guesswork — only verified, reprodu
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
-### Option 1: Run instantly with npx (No install needed)
+### Option 1: Run with npx (No install required)
 ```bash
 npx thinker-toolkit init
 ```
@@ -24,7 +24,7 @@ thinker init
 
 ---
 
-## 🛠 Commands
+## Commands
 
 ### `thinker init`
 Interactive workspace setup. Detects your project framework (Next.js, Vite, Python, etc.) and connected IDE configurations, then safely injects the relevant protocols.
@@ -61,19 +61,19 @@ thinker verify --strict
 
 ---
 
-## 📦 Bundled Protocols
+## Bundled Protocols
 
-1. **Systematic Debugging**: Rigorous 4-step root cause analysis (Hypothesis → Trace Isolation → Reproduction Verification → Regression Barrier) before touching code.
+1. **Systematic Debugging**: Rigorous 4-step root cause analysis (Hypothesis -> Trace Isolation -> Reproduction Verification -> Regression Barrier) before touching code.
 2. **Test-Driven Development (TDD)**: Enforces writing failing unit/integration tests before writing implementation code.
 3. **Verification Before Completion**: Automated pre-flight checks (lint, types, tests, builds) before claiming any task is resolved.
 4. **Subagent Worktree Isolation**: Orchestrates parallel subagents in independent Git worktrees to prevent state collisions.
 
 ---
 
-## 🔒 Safety First
+## Safety First
 Thinker Toolkit never truncates or destroys existing developer configurations. If `.cursorrules` or `CLAUDE.md` already exists, an automatic `.bak` backup is created before applying updates.
 
 ---
 
-## 📄 License
-MIT © [Thinker Labs](https://thinkerlab.tech)
+## License
+MIT (c) Thinker Labs (https://thinkerlab.tech)
